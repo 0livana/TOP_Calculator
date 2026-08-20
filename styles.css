@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center
+}
+#container{
+    border: 1px solid rgb(130, 29, 29);
+    border-radius: 8px;
+    width: 200px;
+    padding: 8px;
+    background: rgb(16, 11, 11);
+    
+}
+
+#screen{
+    border: 1px solid rgb(130, 29, 29);
+    border-radius: 8px;
+    /* height:40%; */
+    padding: 32px;
+     background: rgb(255, 255, 255);
+}
+#buttons{
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4px;
+}
+
+.btn{
+    padding: 4px;
+    font-size: 16px;
+    border-radius: 8px;
+}
